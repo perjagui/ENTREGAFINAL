@@ -381,7 +381,7 @@
         text-shadow: 0px 0px 10px black; }
 
 .main-hombre {
-  background-image: url(../images/fondonosotrosclara.png);
+  background-image: url(../images/fondonosotrosclarita.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -591,10 +591,6 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto15 {
       grid-row: 16/17;
-      width: 212px;
-      height: 336px;
-      border: 5px solid grey;
-      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto15 h2 {
         color: white;
@@ -620,7 +616,7 @@
   display: grid;
   height: 962x; }
   .mainnos .titulo2 {
-    color: #0a0a0a;
+    color: white;
     text-align: center;
     text-shadow: 0px 0px 10px black; }
   .mainnos .tarjeta1 {
@@ -628,12 +624,12 @@
     height: 95px;
     text-align: center; }
     .mainnos .tarjeta1 h2 {
-      color: #0a0a0a;
+      color: white;
       font-size: 25px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
     .mainnos .tarjeta1 h4 {
-      color: #0a0a0a;
+      color: white;
       font-size: 12px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
@@ -642,12 +638,12 @@
     height: 150px;
     text-align: center; }
     .mainnos .tarjeta2 h2 {
-      color: #0a0a0a;
+      color: white;
       font-size: 25px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
     .mainnos .tarjeta2 h4 {
-      color: #0a0a0a;
+      color: white;
       font-size: 12px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
@@ -656,12 +652,12 @@
     height: 420px;
     text-align: center; }
     .mainnos .tarjeta4 h2 {
-      color: #0a0a0a;
+      color: white;
       font-size: 25px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
     .mainnos .tarjeta4 h4 {
-      color: #0a0a0a;
+      color: white;
       font-size: 12px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
@@ -1015,7 +1011,7 @@
         display: none; }
   /* fin de maindama */
   .main-hombre {
-    background-image: url(../images/fondonosotrosclara.png); }
+    background-image: url(../images/fondonosotrosclarita.png); }
     .main-hombre .titulo {
       height: 70px; }
       .main-hombre .titulo h1 {
@@ -1077,7 +1073,7 @@
     height: 950px;
     align-content: center; }
     .mainnos .titulo2 {
-      color: #0a0a0a;
+      color: white;
       text-align: center;
       font-size: 45px;
       text-shadow: 0px 0px 10px black;
@@ -1256,7 +1252,7 @@
         grid-column: 3/4; }
   /* fin de maindama */
   .main-hombre {
-    background-image: url(../images/fondonosotrosclara.png); }
+    background-image: url(../images/fondonosotrosclarita.png); }
     .main-hombre .titulo {
       height: 70px; }
       .main-hombre .titulo h1 {
@@ -1381,7 +1377,7 @@
     background-image: url(../images/fondonosotrosclara.png);
     height: 1250px; }
     .mainnos .titulo2 {
-      color: #0a0a0a;
+      color: white;
       text-align: center;
       font-size: 55px;
       text-shadow: 0px 0px 10px black;
@@ -1524,7 +1520,7 @@
         grid-column: 3/4; }
   /* fin de maindama */
   .main-hombre {
-    background-image: url(../images/fondonosotrosclara.png); }
+    background-image: url(../images/fondonosotrosclarita.png); }
     .main-hombre .titulo {
       height: 70px; }
       .main-hombre .titulo h1 {
@@ -1560,7 +1556,7 @@
     background-image: url(../images/fondonosotrosclara.png);
     height: 1370px; }
     .mainnos .titulo2 {
-      color: #0a0a0a;
+      color: white;
       text-align: center;
       font-size: 65px;
       text-shadow: 0px 0px 10px black;
