@@ -72,7 +72,7 @@
       color: white; }
 
 .main-dama {
-  background-image: url(../images/fondonosotrosclarita.png);
+  background-image: url(../images/fondonosotrosclara.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -407,6 +407,8 @@
       grid-row: 2/3;
       width: 212px;
       height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto1 h2, .main-hombre .chicos .foto2 h2, .main-hombre .chicos .foto3 h2, .main-hombre .chicos .foto4 h2, .main-hombre .chicos .foto5 h2, .main-hombre .chicos .foto6 h2 {
         color: white;
@@ -437,6 +439,10 @@
       text-align: center; }
     .main-hombre .chicos .foto7 {
       grid-row: 8/9;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto7 h2 {
         color: white;
@@ -452,6 +458,10 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto8 {
       grid-row: 9/10;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto8 h2 {
         color: white;
@@ -467,6 +477,10 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto9 {
       grid-row: 10/11;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto9 h2 {
         color: white;
@@ -482,6 +496,10 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto10 {
       grid-row: 11/12;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto10 h2 {
         color: white;
@@ -497,6 +515,10 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto11 {
       grid-row: 12/13;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto11 h2 {
         color: white;
@@ -512,6 +534,10 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto12 {
       grid-row: 13/14;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto12 h2 {
         color: white;
@@ -527,6 +553,10 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto13 {
       grid-row: 14/15;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto13 h2 {
         color: white;
@@ -542,6 +572,10 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto14 {
       grid-row: 15/16;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto14 h2 {
         color: white;
@@ -557,6 +591,10 @@
         text-shadow: 0px 0px 10px black; }
     .main-hombre .chicos .foto15 {
       grid-row: 16/17;
+      width: 212px;
+      height: 336px;
+      border: 5px solid grey;
+      box-shadow: 0px 0px 10px black;
       text-align: center; }
       .main-hombre .chicos .foto15 h2 {
         color: white;
@@ -923,7 +961,7 @@
     height: 81px; }
   /* fin de mainindex */
   .main-dama {
-    background-image: url(../images/fondonosotrosclarita.png); }
+    background-image: url(../images/fondonosotrosclara.png); }
     .main-dama .titulo {
       height: 70px; }
       .main-dama .titulo h1 {
@@ -977,7 +1015,7 @@
         display: none; }
   /* fin de maindama */
   .main-hombre {
-    background-image: url(../images/fondonosotrosclarita.png); }
+    background-image: url(../images/fondonosotrosclara.png); }
     .main-hombre .titulo {
       height: 70px; }
       .main-hombre .titulo h1 {
@@ -1157,7 +1195,7 @@
           display: block; }
   /* fin de mainindex */
   .main-dama {
-    background-image: url(../images/fondonosotrosclarita.png); }
+    background-image: url(../images/fondonosotrosclara.png); }
     .main-dama .titulo {
       height: 80px; }
       .main-dama .titulo h1 {
@@ -1213,7 +1251,7 @@
         grid-column: 3/4; }
   /* fin de maindama */
   .main-hombre {
-    background-image: url(../images/fondonosotrosclarita.png); }
+    background-image: url(../images/fondonosotrosclara.png); }
     .main-hombre .titulo {
       height: 70px; }
       .main-hombre .titulo h1 {
@@ -1442,7 +1480,7 @@
         font-size: 50px; }
   /* fin de mainindex */
   .main-dama {
-    background-image: url(../images/fondonosotrosclarita.png); }
+    background-image: url(../images/fondonosotrosclara.png); }
     .main-dama .titulo {
       height: 90px; }
       .main-dama .titulo h1 {
@@ -1471,7 +1509,7 @@
         grid-column: 3/4; }
   /* fin de maindama */
   .main-hombre {
-    background-image: url(../images/fondonosotrosclarita.png); }
+    background-image: url(../images/fondonosotrosclara.png); }
     .main-hombre .titulo {
       height: 70px; }
       .main-hombre .titulo h1 {
