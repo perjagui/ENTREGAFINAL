@@ -1,7 +1,25 @@
 @media(min-width:1440px) {
-
+    .header{
+        .container-fluid {
+            .navbar-brand {
+                .logochico {
+                    width: 50px;
+                    height: auto;
+                }
+    }
+}
+    .collapse {
+        .navbar-nav {
+            .nav-item {
+                font-size: 45px;
+            }
+        }
+    }     
+}  
+        /* fin de mainheader */
     .main-index {
-        width: 1300px;
+        grid-template-rows: repeat(12, 69px);
+        width: 1440px;
 
         .parrafo-main {
             grid-row: 8/9;
@@ -48,8 +66,11 @@
             height: 90px;
 
             h1 {
+                justify-content: center;
+                text-align: center;
+                font-size: 50px;
                 grid-row: 1/2;
-                font-size: 45px;
+                color: $blanco;
             }
         }
 
@@ -102,6 +123,7 @@
             h1 {
                 justify-content: center;
                 text-align: center;
+                font-size: 50px;
                 grid-row: 1/2;
                 color: $blanco;
             }
@@ -150,7 +172,7 @@
         height: 1370px;
 
         .titulo2 {
-            color: $blanco;
+            color: $obscuro;
             text-align: center;
             font-size: 65px;
             text-shadow: 0px 0px 10px black;

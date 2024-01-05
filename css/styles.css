@@ -381,7 +381,7 @@
         text-shadow: 0px 0px 10px black; }
 
 .main-hombre {
-  background-image: url(../images/fondonosotrosclarita.png);
+  background-image: url(../images/fondonosotrosclara.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -620,7 +620,7 @@
   display: grid;
   height: 962x; }
   .mainnos .titulo2 {
-    color: white;
+    color: #0a0a0a;
     text-align: center;
     text-shadow: 0px 0px 10px black; }
   .mainnos .tarjeta1 {
@@ -628,12 +628,12 @@
     height: 95px;
     text-align: center; }
     .mainnos .tarjeta1 h2 {
-      color: white;
+      color: #0a0a0a;
       font-size: 25px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
     .mainnos .tarjeta1 h4 {
-      color: white;
+      color: #0a0a0a;
       font-size: 12px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
@@ -642,12 +642,12 @@
     height: 150px;
     text-align: center; }
     .mainnos .tarjeta2 h2 {
-      color: white;
+      color: #0a0a0a;
       font-size: 25px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
     .mainnos .tarjeta2 h4 {
-      color: white;
+      color: #0a0a0a;
       font-size: 12px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
@@ -656,12 +656,12 @@
     height: 420px;
     text-align: center; }
     .mainnos .tarjeta4 h2 {
-      color: white;
+      color: #0a0a0a;
       font-size: 25px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
     .mainnos .tarjeta4 h4 {
-      color: white;
+      color: #0a0a0a;
       font-size: 12px;
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 0px 0px 10px black; }
@@ -1077,7 +1077,7 @@
     height: 950px;
     align-content: center; }
     .mainnos .titulo2 {
-      color: white;
+      color: #0a0a0a;
       text-align: center;
       font-size: 45px;
       text-shadow: 0px 0px 10px black;
@@ -1158,6 +1158,11 @@
       height: auto; } }
 
 @media (min-width: 1024px) {
+  .header .container-fluid .navbar-brand .logochico {
+    width: 40px;
+    height: auto; }
+  .header .collapse .navbar-nav .nav-item {
+    font-size: 35px; }
   .main-index {
     grid-template-rows: repeat(9, 68px); }
     .main-index .logo {
@@ -1376,7 +1381,7 @@
     background-image: url(../images/fondonosotrosclara.png);
     height: 1250px; }
     .mainnos .titulo2 {
-      color: white;
+      color: #0a0a0a;
       text-align: center;
       font-size: 55px;
       text-shadow: 0px 0px 10px black;
@@ -1457,8 +1462,15 @@
       height: auto; } }
 
 @media (min-width: 1440px) {
+  .header .container-fluid .navbar-brand .logochico {
+    width: 50px;
+    height: auto; }
+  .header .collapse .navbar-nav .nav-item {
+    font-size: 45px; }
+  /* fin de mainheader */
   .main-index {
-    width: 1300px; }
+    grid-template-rows: repeat(12, 69px);
+    width: 1440px; }
     .main-index .parrafo-main {
       grid-row: 8/9; }
       .main-index .parrafo-main .info {
@@ -1484,8 +1496,11 @@
     .main-dama .titulo {
       height: 90px; }
       .main-dama .titulo h1 {
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
         grid-row: 1/2;
-        font-size: 45px; }
+        color: white; }
     .main-dama .chicas {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr); }
@@ -1515,6 +1530,7 @@
       .main-hombre .titulo h1 {
         justify-content: center;
         text-align: center;
+        font-size: 50px;
         grid-row: 1/2;
         color: white; }
     .main-hombre .chicos {
@@ -1544,7 +1560,7 @@
     background-image: url(../images/fondonosotrosclara.png);
     height: 1370px; }
     .mainnos .titulo2 {
-      color: white;
+      color: #0a0a0a;
       text-align: center;
       font-size: 65px;
       text-shadow: 0px 0px 10px black;

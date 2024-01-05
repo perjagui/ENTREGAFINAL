@@ -1,4 +1,21 @@
 @media(min-width:1024px) {
+    .header{
+            .container-fluid {
+                .navbar-brand {
+                    .logochico {
+                        width: 40px;
+                        height: auto;
+                    }
+        }
+    }
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    font-size: 35px;
+                }
+            }
+        }     
+    }   
 
     .main-index {
         grid-template-rows: repeat(9, 68px);
@@ -388,7 +405,7 @@
         height: 1250px;
 
         .titulo2 {
-            color: $blanco;
+            color: $obscuro;
             text-align: center;
             font-size: 55px;
             text-shadow: 0px 0px 10px black;
