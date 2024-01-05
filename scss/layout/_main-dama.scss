@@ -1,0 +1,373 @@
+.main-dama {
+    background-image: url(../images/Fondodepantalla.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: space-around;
+    background-color: $colorprincipal;
+
+    .titulo {
+        justify-content: space-around;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        height: 60px;
+
+        h1 {
+            justify-content: center;
+            text-align: center;
+            grid-row: 1/2;
+            color: $blanco;
+            text-shadow: 0px 0px 10px black;
+        }
+    }
+
+    .chicas {
+        display: grid;
+        justify-items: center;
+
+        .foto1 {
+            grid-row: 2/3;
+            width: 212px;
+            height: 336px;
+            text-align: center;
+            h2 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+            }
+            h3 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+            }
+        }
+
+        .foto2 {
+            grid-row: 3/4;
+            text-align: center;
+
+            .textofotos{ 
+                width: 250px;
+            h2 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+                }
+            }
+            h3 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+            }
+        }
+
+        .foto3 {
+            grid-row: 4/5;
+            text-align: center;
+
+            .textofotos{ 
+                width: 250px;
+            h2 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+                }
+            }
+            h3 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+            }
+        }
+
+        .foto4 {
+            grid-row: 5/6;
+            text-align: center;
+
+            .textofotos{ 
+                width: 250px;
+            h2 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+                }
+            }
+            h3 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+            }
+        }
+
+        .foto5 {
+            grid-row: 6/7;
+            text-align: center;
+
+            .textofotos{ 
+                width: 250px;
+            h2 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+                }
+            }
+            h3 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+            }
+        }
+
+        .foto6 {
+            grid-row: 7/8;
+            text-align: center;
+            .textofotos{ 
+                width: 250px;
+            h2 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+                }
+            }
+            h3 {
+                color: $blanco;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0px 0px 10px black;
+            }
+        }
+
+            .foto7 {
+                grid-row: 8/9;
+                text-align: center;
+
+                .textofotos{ 
+                    width: 250px;
+                h2 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                    }
+                }
+                h3 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                }
+            }
+
+            .foto8 {
+                grid-row: 9/10;
+                text-align: center;
+
+                .textofotos{ 
+                    width: 250px;
+                h2 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                    }
+                }
+                h3 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                }
+            }
+
+            .foto9 {
+                grid-row: 10/11;
+                text-align: center;
+
+                .textofotos{ 
+                    width: 250px;
+                h2 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                    }
+                }
+                h3 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                }
+            }
+
+            .foto10 {
+                grid-row: 11/12;
+                text-align: center;
+
+                .textofotos{ 
+                    width: 250px;
+                h2 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                    }
+                }
+                h3 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                }
+            }
+
+            .foto11 {
+                grid-row: 12/13;
+                text-align: center;
+
+                .textofotos{ 
+                    width: 250px;
+                h2 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                    }
+                }
+                h3 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                }
+            }
+
+            .foto12 {
+                grid-row: 13/14;
+                text-align: center;
+
+                .textofotos{ 
+                    width: 250px;
+                h2 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                    }
+                }
+                h3 {
+                    color: $blanco;
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 10px black;
+                }
+            }
+
+                .foto13 {
+                    grid-row: 14/15;
+                    text-align: center;
+
+                    .textofotos{ 
+                        width: 250px;
+                    h2 {
+                        color: $blanco;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-shadow: 0px 0px 10px black;
+                        }
+                    }
+                    h3 {
+                        color: $blanco;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-shadow: 0px 0px 10px black;
+                    }
+                }
+
+                .foto14 {
+                    grid-row: 15/16;
+                    text-align: center;
+
+                    .textofotos{ 
+                        width: 250px;
+                    h2 {
+                        color: $blanco;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-shadow: 0px 0px 10px black;
+                        }
+                    }
+                    h3 {
+                        color: $blanco;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-shadow: 0px 0px 10px black;
+                    }
+                }
+
+                .foto15 {
+                    grid-row: 16/17;
+                    text-align: center;
+
+                    .textofotos{ 
+                        width: 250px;
+                    h2 {
+                        color: $blanco;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-shadow: 0px 0px 10px black;
+                        }
+                    }
+                    h3 {
+                        color: $blanco;
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-shadow: 0px 0px 10px black;
+                    }
+        }
+    
+        }
+    }

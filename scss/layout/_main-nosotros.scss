@@ -1,0 +1,80 @@
+.mainnos {
+    background-image: url(../images/Fondodepantalla.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    background-color: $colorprincipal;
+    display: grid;
+    height: 962x;
+
+    .titulo2 {
+        color: $blanco;
+        text-align: center;
+        text-shadow: 0px 0px 10px black;
+    }
+
+    .tarjeta1 {
+        width: 270px;
+        height: 95px;
+        text-align: center;
+
+        h2 {
+            color: white;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 0px 10px black;
+        }
+
+        h4 {
+            color: $blanco;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 0px 10px black;
+        }
+    }
+
+    .tarjeta2 {
+        width: 270px;
+        height: 150px;
+        text-align: center;
+
+        h2 {
+            color: white;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 0px 10px black;
+        }
+
+        h4 {
+            color: $blanco;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 0px 10px black;
+        }
+    }
+
+    .tarjeta4 {
+        width: 270px;
+        height: 420px;
+        text-align: center;
+
+        h2 {
+            color: white;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 0px 10px black;
+
+        }
+
+        h4 {
+            color: $blanco;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 0px 10px black;
+
+        }
+    }
+
+}

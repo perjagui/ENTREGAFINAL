@@ -1,0 +1,124 @@
+.main-cont {
+    background-image: url(../images/Fondodepantalla.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-items: center;
+    background-color: $colorprincipal;
+    display: grid;
+    height: 900px;
+
+    .tituloh2 {
+        .titulo2 {
+            color: $blanco;
+            text-shadow: 0px 0px 10px black;
+            text-align: left;
+        }
+    }
+
+    .horario {
+        h3 {
+            text-align: center;
+            font-size: 16px;
+            color: $blanco;
+            text-shadow: 0px 0px 10px black;
+        }
+    }
+
+    .formulario {
+        .caja1 {
+            grid-row: 3/4;
+
+            .envio {
+                text-transform: capitalize;
+                color: $blanco;
+                text-shadow: 0px 0px 10px black;
+            }
+
+            .intro {
+                width: 265px;
+                height: 30px;
+                background: $blanco;
+                border-radius: 50px;
+                border-color: $colorcuarto;
+                font-size: 20px;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        }
+
+        .caja2 {
+            grid-row: 4/5;
+            .envio {
+                text-transform: capitalize;
+                color: $blanco;
+                text-shadow: 0px 0px 10px black;
+            }
+
+            .intro {
+                width: 265px;
+                height: 30px;
+                background: $blanco;
+                border-radius: 50px;
+                border-color: $colorcuarto;
+                font-size: 20px;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        }
+
+        .caja3 {
+            grid-row: 5/6;
+            .envio {
+                text-transform: capitalize;
+                color: $blanco;
+                text-shadow: 0px 0px 10px black;
+            }
+
+            .intro {
+                width: 265px;
+                height: 30px;
+                background: $blanco;
+                border-radius: 50px;
+                border-color: $colorcuarto;
+                font-size: 20px;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        }
+
+        .caja4 {
+            grid-row: 6/7;
+            .envio {
+                text-transform: capitalize;
+                color: $blanco;
+                text-shadow: 0px 0px 10px black;
+            }
+
+            .coment {
+                width: 265px;
+                height: 265px;
+                background: $blanco;
+                border-radius: 50px;
+                border-color: $colorcuarto;
+                font-size: 20px;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        }
+    }
+
+    .scripcont {
+        .envio {
+            text-transform: capitalize;
+            color: $blanco;
+            text-shadow: 0px 0px 10px black;
+        }
+
+        .mapa {
+            width: 300px;
+            height: auto;
+        }
+    }
+}

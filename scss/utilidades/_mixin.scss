@@ -1,0 +1,13 @@
+@mixin flex( $dis , $direction , $corte , $just , $align ){
+    display         : $dis;
+    flex-flow       : $direction $corte;
+    justify-content : $just;
+    align-items     : $align;
+  /*   @mixin flex-justify{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+} */
+ }

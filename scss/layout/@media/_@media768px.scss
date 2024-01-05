@@ -1,0 +1,375 @@
+@media(min-width:768px) {
+
+    .main-index {
+        grid-template-rows: repeat(8, 75px);
+
+        .logo {
+            width: 250px;
+            height: 168px;
+
+            grid-row: 1/4;
+
+            .logo1 {
+
+                width: 250px;
+                height: 168px;
+            }
+        }
+
+        .buscador {
+            grid-row: 4/6;
+            width: 450px;
+            height: 46px;
+
+            .buscadorintro {
+                width: 450px;
+                height: 40px;
+
+
+
+            }
+        }
+
+    }
+
+    .parrafo-main {
+        grid-row: 7/8;
+
+        .info {
+
+            font-size: 30px;
+
+        }
+    }
+
+    .footer {
+        height: 81px;
+    }
+
+    /* fin de mainindex */
+    .main-dama {
+        background-image: url(../images/Fondodepantalla.jpg);
+
+        .titulo {
+            height: 70px;
+
+            h1 {
+                grid-row: 1/2;
+            }
+        }
+
+        .chicas {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(3, 1fr);
+
+            .foto1 {
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            .foto2 {
+                grid-row: 1/2;
+                grid-column: 2/3;
+            }
+
+            .foto3 {
+                grid-row: 2/3;
+                grid-column: 1/2;
+            }
+
+            .foto4 {
+                grid-row: 2/3;
+                grid-column: 2/3;
+            }
+
+            .foto5 {
+                grid-row: 3/4;
+                grid-column: 1/2;
+            }
+
+            .foto6 {
+                grid-row: 3/4;
+                grid-column: 2/3;
+            }
+
+            .foto7 {
+                grid-row: 4/5;
+                grid-column: 1/2;
+            }
+
+            .foto8 {
+                grid-row: 4/5;
+                grid-column: 2/3;
+            }
+
+            .foto9 {
+                grid-row: 5/6;
+                grid-column: 1/2;
+            }
+
+            .foto10 {
+                grid-row: 5/6;
+                grid-column: 2/3;
+            }
+
+            .foto11 {
+                grid-row: 6/7;
+                grid-column: 1/2;
+            }
+
+            .foto12 {
+                grid-row: 6/7;
+                grid-column: 2/3;
+            }
+
+            .foto13 {
+                grid-row: 7/8;
+                grid-column: 2/3;
+            }
+
+            .foto14 {
+                grid-row: 7/8;
+                grid-column: 1/2;
+            }
+
+            .foto15 {
+                display: none;
+            }
+        }
+    }
+
+    /* fin de maindama */
+
+    .main-hombre {
+        background-image: url(../images/Fondodepantalla.jpg);
+
+        .titulo {
+            height: 70px;
+
+            h1 {
+                justify-content: center;
+                text-align: center;
+                grid-row: 1/2;
+                color: $blanco;
+            }
+        }
+
+        .chicos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(3, 1fr);
+
+            .foto1 {
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            .foto2 {
+                grid-row: 1/2;
+                grid-column: 2/3;
+            }
+
+            .foto3 {
+                grid-row: 2/3;
+                grid-column: 1/2;
+            }
+
+            .foto4 {
+                grid-row: 2/3;
+                grid-column: 2/3;
+            }
+
+            .foto5 {
+                grid-row: 3/4;
+                grid-column: 1/2;
+            }
+
+            .foto6 {
+                grid-row: 3/4;
+                grid-column: 2/3;
+            }
+
+            .foto7 {
+                grid-row: 4/5;
+                grid-column: 1/2;
+            }
+
+            .foto8 {
+                grid-row: 4/5;
+                grid-column: 2/3;
+            }
+
+            .foto9 {
+                grid-row: 5/6;
+                grid-column: 1/2;
+            }
+
+            .foto10 {
+                grid-row: 5/6;
+                grid-column: 2/3;
+            }
+
+            .foto11 {
+                grid-row: 6/7;
+                grid-column: 1/2;
+            }
+
+            .foto12 {
+                grid-row: 6/7;
+                grid-column: 2/3;
+            }
+
+            .foto13 {
+                grid-row: 7/8;
+                grid-column: 2/3;
+            }
+
+            .foto14 {
+                grid-row: 7/8;
+                grid-column: 1/2;
+            }
+
+            .foto15 {
+                display: none;
+            }
+        }
+    }
+
+    /* fin de mainhombre */
+    .mainnos {
+        background-image: url(../images/Fondodepantalla.jpg);
+        height: 950px;
+        align-content: center;
+
+        .titulo2 {
+            color: $blanco;
+            text-align: center;
+            font-size: 45px;
+            text-shadow: 0px 0px 10px black;
+            height: 60px;
+        }
+
+        .tarjeta1 {
+            width: 570px;
+            height: 190px;
+            h2 {
+                font-size: 30px;
+            }
+            h4 {
+                font-size: 18px;
+            }
+        }
+
+        .tarjeta2 {
+            width: 570px;
+            height: 200px;
+            h2 {
+                font-size: 30px;
+            }
+            h4 {
+                font-size: 18px;
+            }
+        }
+
+        .tarjeta4 {
+            width: 570px;
+            height: 420px;
+            h2 {
+                font-size: 30px;
+            }
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    /* fin de mainnosotros */
+
+    .main-cont {
+        background-image: url(../images/Fondodepantalla.jpg);
+        display: grid;
+        height: 900px;
+
+        .titulo2 {
+            width: 150px;
+            height: 33px;
+            font-size: 30px;
+        }
+
+        .horario {
+            h3 {
+                font-size: 20px;
+            }
+        }
+
+        .formulario {
+            .caja1 {
+                grid-row: 3/4;
+
+                .envio {
+                    color: $blanco;
+                    text-shadow: 0px 0px 10px black;
+                }
+
+                .intro {
+                    width: 265px;
+                    height: 30px;
+                    border-radius: 50px;
+                    font-size: 20px;
+
+                }
+                }
+
+            .caja2 {
+                grid-row: 4/5;
+                .envio {
+                    color: $blanco;
+                    text-shadow: 0px 0px 10px black;
+                }
+                .intro {
+                    width: 265px;
+                    height: 30px;
+                    border-radius: 50px;
+                    font-size: 20px;
+                }
+                }
+
+                .caja3 {
+                    grid-row: 5/6;
+                    .envio {
+                        width: 200px;
+                    }
+                    .intro {
+                        width: 265px;
+                        height: 30px;
+                        border-radius: 50px;
+                        font-size: 20px;
+                    }
+                }
+
+                    .caja4 {
+                        .envio {
+                            text-transform: capitalize;
+                            color: $blanco
+                        }
+                        .coment {
+                            width: 265px;
+                            height: 265px;
+                            border-radius: 50px;
+                            font-size: 20px;
+                        }
+                        }
+                }
+
+                .scripcont {
+                        .envio {
+                            font-size: 30px;
+                        }
+                    .mapa {
+                        width: 300px;
+                        height: auto;
+                    }
+                }
+            }
+        
+    }

@@ -1,0 +1,305 @@
+@media(min-width:320px) {
+    .main-index {
+        background-image: url(../images/Fondodepantalla.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 112px);
+        justify-items: center;
+
+        .logo {
+            width: 100px;
+            height: 40px;
+            justify-content: center;
+            justify-self: center;
+            justify-items: center;
+            align-self: center;
+            grid-row: 1/3;
+
+            .logo1 {
+
+                width: auto;
+                height: 70px;
+            }
+        }
+
+        .buscador {
+            grid-row: 3/4;
+            align-self: center;
+            width: 200px;
+            height: 38px;
+
+            .buscadorintro {
+                width: 200px;
+                height: 30px;
+                background: $blanco;
+                border-radius: 50px;
+                border-color: $colorcuarto;
+                font-size: 12px;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .parrafo-main {
+        grid-row: 4/5;
+        text-align: center;
+        align-self: center;
+
+
+        .info {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: $blanco;
+        }
+
+        .lorem1024 {
+            display: none;
+        }
+    }
+
+    .footer {
+        display: flex;
+        background-color: $colorfooter;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 60px;
+        align-items: center;
+
+        .link {
+            display: flex;
+            align-items: center;
+
+            .lfooter {
+                .icono {
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+
+    /* fin de footer */
+
+    .main-dama {
+        background-image: url(../images/Fondodepantalla.jpg);
+
+        .titulo {
+
+            h1 {
+                grid-row: 1/2;
+                color: $blanco;
+                text-shadow: black;
+            }
+        }
+
+        .chicas {
+
+            .foto1 {
+                grid-row: 2/3;
+                width: 212px;
+                height: 336px;
+
+
+            }
+
+            .foto2 {
+                grid-row: 3/4;
+
+            }
+
+            .foto3 {
+                grid-row: 4/5;
+
+            }
+
+            .foto4 {
+                grid-row: 5/6;
+
+            }
+
+            .foto5 {
+                grid-row: 6/7;
+
+            }
+
+            .foto6 {
+                grid-row: 7/8;
+
+            }
+        }
+    }
+
+    /* fin de maindama */
+    .main-hombre {
+        background-image: url(../images/Fondodepantalla.jpg);
+
+        .titulo {
+
+            h1 {
+                grid-row: 1/2;
+                color: $blanco;
+                text-shadow: 0px 0px 10px black;
+            }
+        }
+
+        .chicos {
+
+            .foto1 {
+                grid-row: 2/3;
+                width: 212px;
+                height: 336px;
+
+
+            }
+
+            .foto2 {
+                grid-row: 3/4;
+            }
+
+            .foto3 {
+                grid-row: 4/5;
+            }
+
+            .foto4 {
+                grid-row: 5/6;
+            }
+
+            .foto5 {
+                grid-row: 6/7;
+            }
+
+            .foto6 {
+                grid-row: 7/8;
+            }
+        }
+    }
+
+    /* fin de mainnosotros */
+    .main-cont {
+        background-image: url(../images/Fondodepantalla.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        justify-items: center;
+        background-color: $colorprincipal;
+        display: grid;
+        height: 900px;
+
+        .tituloh2 {
+            .titulo2 {
+                color: $blanco;
+                text-shadow: 0px 0px 10px black;
+                text-align: left;
+            }
+        }
+
+        .horario {
+            h3 {
+                text-align: center;
+                font-size: 16px;
+                color: $blanco;
+                text-shadow: 0px 0px 10px black;
+            }
+        }
+
+        .formulario {
+            .caja1 {
+                grid-row: 3/4;
+
+                .envio {
+                    text-transform: capitalize;
+                    color: $blanco;
+                    text-shadow: 0px 0px 10px black;
+                }
+
+                .intro {
+                    width: 265px;
+                    height: 30px;
+                    background: $blanco;
+                    border-radius: 50px;
+                    border-color: $colorcuarto;
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    text-align: center;
+                }
+            }
+
+            .caja2 {
+                grid-row: 4/5;
+
+                .envio {
+                    text-transform: capitalize;
+                    color: $blanco;
+                    text-shadow: 0px 0px 10px black;
+                }
+
+                .intro {
+                    width: 265px;
+                    height: 30px;
+                    background: $blanco;
+                    border-radius: 50px;
+                    border-color: $colorcuarto;
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    text-align: center;
+                }
+            }
+
+            .caja3 {
+                grid-row: 5/6;
+
+                .envio {
+                    text-transform: capitalize;
+                    color: $blanco;
+                    text-shadow: 0px 0px 10px black;
+                }
+
+                .intro {
+                    width: 265px;
+                    height: 30px;
+                    background: $blanco;
+                    border-radius: 50px;
+                    border-color: $colorcuarto;
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    text-align: center;
+                }
+            }
+
+            .caja4 {
+
+                .envio {
+                    text-transform: capitalize;
+                    color: $blanco;
+                    text-shadow: 0px 0px 10px black;
+                }
+
+                .coment {
+                    width: 265px;
+                    height: 265px;
+                    background: $blanco;
+                    border-radius: 50px;
+                    border-color: $colorcuarto;
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    text-align: center;
+                }
+            }
+        }
+
+        .scripcont {
+            .mapa {
+                width: 300px;
+                height: auto;
+            }
+        }
+    }
+}

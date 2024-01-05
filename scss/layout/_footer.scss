@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  background-color: $colorfooter;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 60px;
+  align-items: center;
+
+  .link {
+    display: flex;
+    .lfooter {
+      .icono {
+        font-size: 30px;
+      }
+    }
+
+    .nombre {
+      display: none;
+      text-transform: capitalize;
+      color: $blanco;
+    }
+
+  }
+
+}
