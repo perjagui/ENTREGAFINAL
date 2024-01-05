@@ -1,5 +1,5 @@
 .main-dama {
-    background-image: url(../images/Fondodepantalla.jpg);
+    background-image: url(../images/fondonosotrosclarita.png);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -31,6 +31,8 @@
             grid-row: 2/3;
             width: 212px;
             height: 336px;
+            border: 5px solid grey;
+            box-shadow: 0px 0px 10px black;
             text-align: center;
             h2 {
                 color: $blanco;
@@ -50,10 +52,12 @@
 
         .foto2 {
             grid-row: 3/4;
+            width: 212px;
+            height: 336px;
+            border: 5px solid grey;
+            box-shadow: 0px 0px 10px black;
             text-align: center;
 
-            .textofotos{ 
-                width: 250px;
             h2 {
                 color: $blanco;
                 font-size: 20px;
@@ -61,7 +65,6 @@
                 font-family: Arial, Helvetica, sans-serif;
                 text-shadow: 0px 0px 10px black;
                 }
-            }
             h3 {
                 color: $blanco;
                 font-size: 20px;
@@ -73,10 +76,11 @@
 
         .foto3 {
             grid-row: 4/5;
+            width: 212px;
+            height: 336px;
+            border: 5px solid grey;
+            box-shadow: 0px 0px 10px black;
             text-align: center;
-
-            .textofotos{ 
-                width: 250px;
             h2 {
                 color: $blanco;
                 font-size: 20px;
@@ -84,7 +88,6 @@
                 font-family: Arial, Helvetica, sans-serif;
                 text-shadow: 0px 0px 10px black;
                 }
-            }
             h3 {
                 color: $blanco;
                 font-size: 20px;
@@ -96,10 +99,11 @@
 
         .foto4 {
             grid-row: 5/6;
+            width: 212px;
+            height: 336px;
+            border: 5px solid grey;
+            box-shadow: 0px 0px 10px black;
             text-align: center;
-
-            .textofotos{ 
-                width: 250px;
             h2 {
                 color: $blanco;
                 font-size: 20px;
@@ -107,7 +111,6 @@
                 font-family: Arial, Helvetica, sans-serif;
                 text-shadow: 0px 0px 10px black;
                 }
-            }
             h3 {
                 color: $blanco;
                 font-size: 20px;
@@ -119,10 +122,11 @@
 
         .foto5 {
             grid-row: 6/7;
+            width: 212px;
+            height: 336px;
+            border: 5px solid grey;
+            box-shadow: 0px 0px 10px black;
             text-align: center;
-
-            .textofotos{ 
-                width: 250px;
             h2 {
                 color: $blanco;
                 font-size: 20px;
@@ -130,7 +134,6 @@
                 font-family: Arial, Helvetica, sans-serif;
                 text-shadow: 0px 0px 10px black;
                 }
-            }
             h3 {
                 color: $blanco;
                 font-size: 20px;
@@ -142,9 +145,11 @@
 
         .foto6 {
             grid-row: 7/8;
+            width: 212px;
+            height: 336px;
+            border: 5px solid grey;
+            box-shadow: 0px 0px 10px black;
             text-align: center;
-            .textofotos{ 
-                width: 250px;
             h2 {
                 color: $blanco;
                 font-size: 20px;
@@ -152,7 +157,6 @@
                 font-family: Arial, Helvetica, sans-serif;
                 text-shadow: 0px 0px 10px black;
                 }
-            }
             h3 {
                 color: $blanco;
                 font-size: 20px;
@@ -164,10 +168,12 @@
 
             .foto7 {
                 grid-row: 8/9;
+                width: 212px;
+                height: 336px;
+                border: 5px solid grey;
+                box-shadow: 0px 0px 10px black;
                 text-align: center;
 
-                .textofotos{ 
-                    width: 250px;
                 h2 {
                     color: $blanco;
                     font-size: 20px;
@@ -175,7 +181,6 @@
                     font-family: Arial, Helvetica, sans-serif;
                     text-shadow: 0px 0px 10px black;
                     }
-                }
                 h3 {
                     color: $blanco;
                     font-size: 20px;
@@ -187,10 +192,11 @@
 
             .foto8 {
                 grid-row: 9/10;
+                width: 212px;
+                height: 336px;
+                border: 5px solid grey;
+                box-shadow: 0px 0px 10px black;
                 text-align: center;
-
-                .textofotos{ 
-                    width: 250px;
                 h2 {
                     color: $blanco;
                     font-size: 20px;
@@ -198,7 +204,6 @@
                     font-family: Arial, Helvetica, sans-serif;
                     text-shadow: 0px 0px 10px black;
                     }
-                }
                 h3 {
                     color: $blanco;
                     font-size: 20px;
@@ -210,10 +215,11 @@
 
             .foto9 {
                 grid-row: 10/11;
+                width: 212px;
+                height: 336px;
+                border: 5px solid grey;
+                box-shadow: 0px 0px 10px black;
                 text-align: center;
-
-                .textofotos{ 
-                    width: 250px;
                 h2 {
                     color: $blanco;
                     font-size: 20px;
@@ -221,7 +227,6 @@
                     font-family: Arial, Helvetica, sans-serif;
                     text-shadow: 0px 0px 10px black;
                     }
-                }
                 h3 {
                     color: $blanco;
                     font-size: 20px;
@@ -233,10 +238,11 @@
 
             .foto10 {
                 grid-row: 11/12;
+                width: 212px;
+                height: 336px;
+                border: 5px solid grey;
+                box-shadow: 0px 0px 10px black;
                 text-align: center;
-
-                .textofotos{ 
-                    width: 250px;
                 h2 {
                     color: $blanco;
                     font-size: 20px;
@@ -244,7 +250,6 @@
                     font-family: Arial, Helvetica, sans-serif;
                     text-shadow: 0px 0px 10px black;
                     }
-                }
                 h3 {
                     color: $blanco;
                     font-size: 20px;
@@ -256,10 +261,11 @@
 
             .foto11 {
                 grid-row: 12/13;
+                width: 212px;
+                height: 336px;
+                border: 5px solid grey;
+                box-shadow: 0px 0px 10px black;
                 text-align: center;
-
-                .textofotos{ 
-                    width: 250px;
                 h2 {
                     color: $blanco;
                     font-size: 20px;
@@ -267,7 +273,6 @@
                     font-family: Arial, Helvetica, sans-serif;
                     text-shadow: 0px 0px 10px black;
                     }
-                }
                 h3 {
                     color: $blanco;
                     font-size: 20px;
@@ -279,10 +284,11 @@
 
             .foto12 {
                 grid-row: 13/14;
+                width: 212px;
+                height: 336px;
+                border: 5px solid grey;
+                box-shadow: 0px 0px 10px black;
                 text-align: center;
-
-                .textofotos{ 
-                    width: 250px;
                 h2 {
                     color: $blanco;
                     font-size: 20px;
@@ -290,7 +296,6 @@
                     font-family: Arial, Helvetica, sans-serif;
                     text-shadow: 0px 0px 10px black;
                     }
-                }
                 h3 {
                     color: $blanco;
                     font-size: 20px;
@@ -302,10 +307,11 @@
 
                 .foto13 {
                     grid-row: 14/15;
+                    width: 212px;
+                    height: 336px;
+                    border: 5px solid grey;
+                    box-shadow: 0px 0px 10px black;
                     text-align: center;
-
-                    .textofotos{ 
-                        width: 250px;
                     h2 {
                         color: $blanco;
                         font-size: 20px;
@@ -313,7 +319,6 @@
                         font-family: Arial, Helvetica, sans-serif;
                         text-shadow: 0px 0px 10px black;
                         }
-                    }
                     h3 {
                         color: $blanco;
                         font-size: 20px;
@@ -325,10 +330,11 @@
 
                 .foto14 {
                     grid-row: 15/16;
+                    width: 212px;
+                    height: 336px;
+                    border: 5px solid grey;
+                    box-shadow: 0px 0px 10px black;
                     text-align: center;
-
-                    .textofotos{ 
-                        width: 250px;
                     h2 {
                         color: $blanco;
                         font-size: 20px;
@@ -336,7 +342,6 @@
                         font-family: Arial, Helvetica, sans-serif;
                         text-shadow: 0px 0px 10px black;
                         }
-                    }
                     h3 {
                         color: $blanco;
                         font-size: 20px;
@@ -348,10 +353,11 @@
 
                 .foto15 {
                     grid-row: 16/17;
+                    width: 212px;
+                    height: 336px;
+                    border: 5px solid grey;
+                    box-shadow: 0px 0px 10px black;
                     text-align: center;
-
-                    .textofotos{ 
-                        width: 250px;
                     h2 {
                         color: $blanco;
                         font-size: 20px;
@@ -359,7 +365,6 @@
                         font-family: Arial, Helvetica, sans-serif;
                         text-shadow: 0px 0px 10px black;
                         }
-                    }
                     h3 {
                         color: $blanco;
                         font-size: 20px;
