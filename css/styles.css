@@ -1467,8 +1467,23 @@
   .main-index {
     grid-template-rows: repeat(12, 69px);
     width: 1440px; }
+    .main-index .logo {
+      width: 250px;
+      height: 200px;
+      grid-row: 1/5; }
+      .main-index .logo .logo1 {
+        width: 250px;
+        height: 200px; }
+    .main-index .buscador {
+      grid-row: 5/8;
+      width: 700px;
+      height: 70px;
+      box-shadow: 0px 0px 0px black; }
+      .main-index .buscador .buscadorintro {
+        width: 700px;
+        height: 80px; }
     .main-index .parrafo-main {
-      grid-row: 8/9; }
+      grid-row: 9/10; }
       .main-index .parrafo-main .info {
         font-size: 45px;
         text-shadow: 0px 0px 10px black; }
@@ -1477,6 +1492,8 @@
         font-size: 38px;
         text-shadow: 0px 0px 10px black;
         color: white;
+        -webkit-text-stroke-width: 1,5px;
+        -webkit-text-stroke-color: #050505;
         text-align: center; }
   .footer {
     height: 81px; }
