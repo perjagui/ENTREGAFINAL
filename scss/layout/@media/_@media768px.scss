@@ -237,7 +237,52 @@
 
     /* fin de mainhombre */
     .mainnos {
-        background-image: url(../images/fondonosotrosclara.png);
+        .mainnos {
+            background-image: url(../images/fondonosotrosclara11.jpg);
+            height: 950px;
+            align-content: center;
+    
+            .titulo2 {
+                color: $blanco;
+                text-align: center;
+                font-size: 45px;
+                text-shadow: 0px 0px 10px black;
+                height: 60px;
+            }
+    
+            .tarjeta1 {
+                width: 570px;
+                height: 190px;
+                h2 {
+                    font-size: 30px;
+                }
+                h4 {
+                    font-size: 18px;
+                }
+            }
+    
+            .tarjeta2 {
+                width: 570px;
+                height: 200px;
+                h2 {
+                    font-size: 30px;
+                }
+                h4 {
+                    font-size: 18px;
+                }
+            }
+    
+            .tarjeta4 {
+                width: 570px;
+                height: 420px;
+                h2 {
+                    font-size: 30px;
+                }
+                h4 {
+                    font-size: 18px;
+                }
+            }
+        }
         height: 950px;
         align-content: center;
 
