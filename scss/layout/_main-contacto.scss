@@ -5,11 +5,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     justify-items: center;
+    
     background-color: $colorprincipal;
     display: grid;
     height: 900px;
 
     .tituloh2 {
+        height: 26px;
         .titulo2 {
             color: $blanco;
             text-shadow: 0px 0px 10px black;

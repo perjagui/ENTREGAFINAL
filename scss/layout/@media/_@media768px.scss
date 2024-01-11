@@ -1,41 +1,45 @@
 @media(min-width:768px) {
 
     .main-index {
-        grid-template-rows: repeat(8, 82px);
+        grid-template-rows: repeat(8, 75px);
 
         .logo {
             width: 250px;
             height: 168px;
+
             grid-row: 1/4;
+
             .logo1 {
+
                 width: 250px;
                 height: 168px;
             }
         }
 
         .buscador {
-            grid-row: 4/5;
+            grid-row: 4/6;
             width: 450px;
             height: 46px;
+
             .buscadorintro {
                 width: 450px;
                 height: 40px;
+
+
+
             }
         }
+
     }
+
     .parrafo-main {
-        grid-row: 5/6;
+        grid-row: 7/8;
 
         .info {
             
             font-size: 30px;
 
         }
-        #carouselExample {
-            grid-row: 7/11;
-        }
-    }
-
     }
 
     .footer {
@@ -232,10 +236,10 @@
     }
 
     /* fin de mainhombre */
-    .mainnos {
+
         .mainnos {
             background-image: url(../images/fondonosotrosclara11.jpg);
-            height: 950px;
+            
             align-content: center;
     
             .titulo2 {
@@ -243,12 +247,11 @@
                 text-align: center;
                 font-size: 45px;
                 text-shadow: 0px 0px 10px black;
-                height: 60px;
+                
             }
     
             .tarjeta1 {
-                width: 570px;
-                height: 190px;
+               
                 h2 {
                     font-size: 30px;
                 }
@@ -258,8 +261,7 @@
             }
     
             .tarjeta2 {
-                width: 570px;
-                height: 200px;
+                
                 h2 {
                     font-size: 30px;
                 }
@@ -269,8 +271,7 @@
             }
     
             .tarjeta4 {
-                width: 570px;
-                height: 420px;
+                
                 h2 {
                     font-size: 30px;
                 }
@@ -279,50 +280,6 @@
                 }
             }
         }
-        height: 950px;
-        align-content: center;
-
-        .titulo2 {
-            color: $blanco;
-            text-align: center;
-            font-size: 45px;
-            text-shadow: 0px 0px 10px black;
-            height: 60px;
-        }
-
-        .tarjeta1 {
-            width: 570px;
-            height: 190px;
-            h2 {
-                font-size: 30px;
-            }
-            h4 {
-                font-size: 18px;
-            }
-        }
-
-        .tarjeta2 {
-            width: 570px;
-            height: 200px;
-            h2 {
-                font-size: 30px;
-            }
-            h4 {
-                font-size: 18px;
-            }
-        }
-
-        .tarjeta4 {
-            width: 570px;
-            height: 420px;
-            h2 {
-                font-size: 30px;
-            }
-            h4 {
-                font-size: 18px;
-            }
-        }
-    }
 
     /* fin de mainnosotros */
 
@@ -412,3 +369,5 @@
                     }
                 }
             }
+        
+    }

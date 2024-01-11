@@ -316,12 +316,16 @@
             width: 200px;
             height: 40px;
             font-size: 40px;
+            /*        color: $blanco;
+                text-align: left; */
         }
     }
 
     .horario {
         h3 {
+            /* text-align: center; */
             font-size: 16px;
+            /*  color: $blanco; */
         }
     }
 
@@ -398,7 +402,7 @@
     /* fin de contactos */
     .mainnos {
         background-image: url(../images/fondonosotrosclara11.jpg);
-        height: 1250px;
+        grid-template-rows: repeat(10, 90px);
 
         .titulo2 {
             color: $blanco;
@@ -406,12 +410,11 @@
             font-size: 55px;
             text-shadow: 0px 0px 10px black;
             height: 60px;
+            grid-row: 1/2;
         }
 
         .tarjeta1 {
-            width: 670px;
-            height: 160px;
-
+            grid-row: 3/4;
             h2 {
                 font-size: 35px;
             }
@@ -421,26 +424,22 @@
         }
 
         .tarjeta2 {
-            width: 670px;
-            height: 260px;
-
+            
+            grid-row: 5/6;
             h2 {
                 font-size: 35px;
             }
-
             h4 {
                 font-size: 25px;
             }
         }
 
         .tarjeta4 {
-            width: 670px;
-            height: 680px;
-
+         
+            grid-row: 7/9;
             h2 {
                 font-size: 35px;
             }
-
             h4 {
                 font-size: 25px;
             }
@@ -455,8 +454,6 @@
         height: 900px;
 
         .titulo2 {
-            width: 150px;
-            height: 37px;
             font-size: 35px;
         }
 

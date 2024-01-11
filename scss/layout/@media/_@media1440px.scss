@@ -1,54 +1,56 @@
 @media(min-width:1440px) {
-    .header{
+    .header {
         .container-fluid {
             .navbar-brand {
                 .logochico {
                     width: 50px;
                     height: auto;
                 }
-    }
-}
-    .collapse {
-        .navbar-nav {
-            .nav-item {
-                font-size: 45px;
             }
         }
-    }     
-}  
-        /* fin de mainheader */
+
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+
+    /* fin de mainheader */
     .main-index {
-        grid-template-columns: repeat(5, 20%);
-        grid-template-rows: repeat(12, 69px);
+        grid-template-rows: repeat(12, 73px);
         width: 1440px;
+
         .logo {
             width: 250px;
             height: 200px;
-            grid-row: 2/4;
-            grid-column: 3/4;
+
+            grid-row: 1/5;
+
             .logo1 {
+
                 width: 250px;
                 height: 200px;
             }
         }
 
         .buscador {
-            grid-column: 2/5;
-            grid-row: 7/8;
+            grid-row: 5/8;
             width: 700px;
             height: 70px;
             box-shadow: 0px 0px 0px black;
+
             .buscadorintro {
-                grid-column: 2/5;
-                grid-row: 7/8;
                 width: 700px;
                 height: 80px;
+
             }
         }
 
         .parrafo-main {
-            grid-column: 2/5;
-            grid-row: 10/12;
+            grid-row: 9/10;
 
             .info {
                 font-size: 45px;
@@ -56,20 +58,15 @@
             }
 
             .lorem1024 {
-                grid-column: 2/5;
-                grid-row: 12/13;
                 display: block;
                 font-size: 38px;
                 text-shadow: 0px 0px 10px black;
                 color: $blanco;
-                -webkit-text-stroke-width: 1,5px;
+                -webkit-text-stroke-width: 1, 5px;
                 -webkit-text-stroke-color: rgb(5, 5, 5);
                 text-align: center;
             }
-        }
-        #carouselExample {
-            grid-column: 1/2;
-            grid-row: 9/12;
+
         }
     }
 
@@ -148,7 +145,7 @@
     /* fin de maindama */
 
     .main-hombre {
-    background-image: url(../images/fondonosotrosclarita.png);
+        background-image: url(../images/fondonosotrosclarita.png);
 
         .titulo {
             height: 70px;
@@ -201,21 +198,16 @@
 
     /* fin de mainhombre */
     .mainnos {
-        background-image: url(../images/fondonosotrosclara11.jpg);
-        height: 1370px;
+    
 
         .titulo2 {
             color: $blanco;
             text-align: center;
             font-size: 65px;
             text-shadow: 0px 0px 10px black;
-            height: 65px;
         }
 
         .tarjeta1 {
-            width: 870px;
-            height: 180px;
-
             h2 {
                 font-size: 45px;
             }
@@ -224,28 +216,21 @@
                 font-size: 30px;
             }
         }
-
         .tarjeta2 {
-            width: 870px;
-            height: 290px;
 
             h2 {
                 font-size: 45px;
             }
-
             h4 {
                 font-size: 30px;
             }
         }
 
         .tarjeta4 {
-            width: 870px;
-            height: 775px;
-
+            grid-row: 7/11;
             h2 {
                 font-size: 45px;
             }
-
             h4 {
                 font-size: 30px;
             }
@@ -258,10 +243,11 @@
         display: grid;
         height: 900px;
 
-        .titulo2 {
-            width: 150px;
-            height: 45px;
-            font-size: 39px;
+        .tituloh2 {
+            .titulo2 {
+
+                font-size: 39px;
+            }
         }
 
         .horario {

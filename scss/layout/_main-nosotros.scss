@@ -4,10 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    justify-content: center;
+    align-items: center;
     background-color: $colorprincipal;
     display: grid;
-    height: 962x;
+    grid-template-columns: repeat(1, 1fr );
+    grid-template-rows: repeat(8, 80px);
+    
 
     .titulo2 {
         color: $blanco;
@@ -16,8 +18,7 @@
     }
 
     .tarjeta1 {
-        width: 270px;
-        height: 95px;
+      
         text-align: center;
 
         h2 {
@@ -36,8 +37,7 @@
     }
 
     .tarjeta2 {
-        width: 270px;
-        height: 150px;
+        
         text-align: center;
 
         h2 {
@@ -56,8 +56,7 @@
     }
 
     .tarjeta4 {
-        width: 270px;
-        height: 420px;
+        
         text-align: center;
 
         h2 {

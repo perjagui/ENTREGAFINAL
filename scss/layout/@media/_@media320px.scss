@@ -5,10 +5,8 @@
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 112px);
+        
         justify-items: center;
 
         .logo {
@@ -104,7 +102,7 @@
             .foto1 {
                 grid-row: 2/3;
                 width: 212px;
-                height: 290px;
+                height: 310px;
 
 
             }
@@ -180,97 +178,52 @@
             }
         }
     }
-    .mainnos {
         .mainnos {
-            background-image: url(../images/fondonosotrosclara11.png);
-            height: 950px;
+            background-image: url(../images/fondonosotrosclara11.jpg);
             align-content: center;
+
     
             .titulo2 {
                 color: $blanco;
                 text-align: center;
-                font-size: 45px;
+                font-size: 25px;
                 text-shadow: 0px 0px 10px black;
-                height: 60px;
+                grid-row: 1/2;
             }
     
             .tarjeta1 {
-                width: 570px;
-                height: 190px;
+                
+                grid-row: 2/3;
                 h2 {
-                    font-size: 30px;
+                    font-size: 12px;
                 }
                 h4 {
-                    font-size: 18px;
+                    font-size: 14px;
                 }
             }
     
             .tarjeta2 {
-                width: 570px;
-                height: 200px;
+                
+                grid-row: 3/5;
                 h2 {
-                    font-size: 30px;
+                    font-size: 12px;
                 }
                 h4 {
-                    font-size: 18px;
+                    font-size: 14px;
                 }
             }
     
             .tarjeta4 {
-                width: 570px;
-                height: 420px;
+              
+                grid-row: 5/9;
                 h2 {
-                    font-size: 30px;
+                    font-size: 12px;
                 }
                 h4 {
-                    font-size: 18px;
+                    font-size: 14px;
                 }
             }
         }
-        height: 950px;
-        align-content: center;
-
-        .titulo2 {
-            color: $blanco;
-            text-align: center;
-            font-size: 45px;
-            text-shadow: 0px 0px 10px black;
-            height: 60px;
-        }
-
-        .tarjeta1 {
-            width: 570px;
-            height: 190px;
-            h2 {
-                font-size: 30px;
-            }
-            h4 {
-                font-size: 18px;
-            }
-        }
-
-        .tarjeta2 {
-            width: 570px;
-            height: 200px;
-            h2 {
-                font-size: 30px;
-            }
-            h4 {
-                font-size: 18px;
-            }
-        }
-
-        .tarjeta4 {
-            width: 570px;
-            height: 420px;
-            h2 {
-                font-size: 30px;
-            }
-            h4 {
-                font-size: 18px;
-            }
-        }
-    }
 
     /* fin de mainnosotros */
     .main-cont {
@@ -279,12 +232,13 @@
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        justify-items: center;
+        align-items: center;
         background-color: $colorprincipal;
         display: grid;
         height: 900px;
 
         .tituloh2 {
+            
             .titulo2 {
                 color: $blanco;
                 text-shadow: 0px 0px 10px black;
