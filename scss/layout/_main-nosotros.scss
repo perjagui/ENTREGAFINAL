@@ -7,9 +7,9 @@
     align-items: center;
     background-color: $colorprincipal;
     display: grid;
-    grid-template-columns: repeat(1, 1fr );
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 80px);
-    
+
 
     .titulo2 {
         color: $blanco;
@@ -18,7 +18,7 @@
     }
 
     .tarjeta1 {
-      
+
         text-align: center;
 
         h2 {
@@ -37,7 +37,7 @@
     }
 
     .tarjeta2 {
-        
+
         text-align: center;
 
         h2 {
@@ -56,7 +56,7 @@
     }
 
     .tarjeta4 {
-        
+
         text-align: center;
 
         h2 {

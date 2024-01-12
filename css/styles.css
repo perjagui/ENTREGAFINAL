@@ -100,6 +100,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center;
       gap: 30px; }
       .main-dama .chicas .foto1 h2, .main-dama .chicas .main-hombre .chicos .foto2 h2, .main-hombre .chicos .main-dama .chicas .foto2 h2, .main-dama .chicas .main-hombre .chicos .foto3 h2, .main-hombre .chicos .main-dama .chicas .foto3 h2, .main-dama .chicas .main-hombre .chicos .foto4 h2, .main-hombre .chicos .main-dama .chicas .foto4 h2, .main-dama .chicas .main-hombre .chicos .foto5 h2, .main-hombre .chicos .main-dama .chicas .foto5 h2, .main-dama .chicas .main-hombre .chicos .foto6 h2, .main-hombre .chicos .main-dama .chicas .foto6 h2 {
@@ -119,6 +120,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto2 h2 {
         color: white;
@@ -137,6 +139,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto3 h2 {
         color: white;
@@ -155,6 +158,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center;
       gap: 30px; }
       .main-dama .chicas .foto4 h2 {
@@ -174,6 +178,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto5 h2 {
         color: white;
@@ -192,6 +197,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto6 h2 {
         color: white;
@@ -210,6 +216,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto7 h2 {
         color: white;
@@ -228,6 +235,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto8 h2 {
         color: white;
@@ -246,6 +254,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto9 h2 {
         color: white;
@@ -264,6 +273,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto10 h2 {
         color: white;
@@ -282,6 +292,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto11 h2 {
         color: white;
@@ -300,6 +311,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto12 h2 {
         color: white;
@@ -318,6 +330,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto13 h2 {
         color: white;
@@ -336,6 +349,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-dama .chicas .foto14 h2 {
         color: white;
@@ -354,6 +368,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 17px;
       text-align: center; }
       .main-dama .chicas .foto15 h2 {
         color: white;
@@ -397,6 +412,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto1 h2, .main-hombre .chicos .foto2 h2, .main-hombre .chicos .foto3 h2, .main-hombre .chicos .foto4 h2, .main-hombre .chicos .foto5 h2, .main-hombre .chicos .foto6 h2 {
         color: white;
@@ -430,6 +446,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto7 h2 {
         color: white;
@@ -448,6 +465,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto8 h2 {
         color: white;
@@ -466,6 +484,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto9 h2 {
         color: white;
@@ -484,6 +503,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto10 h2 {
         color: white;
@@ -502,6 +522,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto11 h2 {
         color: white;
@@ -520,6 +541,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto12 h2 {
         color: white;
@@ -538,6 +560,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto13 h2 {
         color: white;
@@ -556,6 +579,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto14 h2 {
         color: white;
@@ -574,6 +598,7 @@
       width: 212px;
       height: 310px;
       border: 5px solid grey;
+      padding-top: 7px;
       text-align: center; }
       .main-hombre .chicos .foto15 h2 {
         color: white;
@@ -794,9 +819,7 @@
       color: white;
       text-shadow: black; }
     .main-dama .chicas .foto1, .main-dama .chicas .main-hombre .chicos .foto2, .main-hombre .chicos .main-dama .chicas .foto2, .main-dama .chicas .main-hombre .chicos .foto3, .main-hombre .chicos .main-dama .chicas .foto3, .main-dama .chicas .main-hombre .chicos .foto4, .main-hombre .chicos .main-dama .chicas .foto4, .main-dama .chicas .main-hombre .chicos .foto5, .main-hombre .chicos .main-dama .chicas .foto5, .main-dama .chicas .main-hombre .chicos .foto6, .main-hombre .chicos .main-dama .chicas .foto6 {
-      grid-row: 2/3;
-      width: 212px;
-      height: 310px; }
+      grid-row: 2/3; }
     .main-dama .chicas .foto2 {
       grid-row: 3/4; }
     .main-dama .chicas .foto3 {

@@ -5,13 +5,14 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     justify-items: center;
-    
+
     background-color: $colorprincipal;
     display: grid;
     height: 900px;
 
     .tituloh2 {
         height: 26px;
+
         .titulo2 {
             color: $blanco;
             text-shadow: 0px 0px 10px black;
@@ -52,6 +53,7 @@
 
         .caja2 {
             grid-row: 4/5;
+
             .envio {
                 text-transform: capitalize;
                 color: $blanco;
@@ -72,6 +74,7 @@
 
         .caja3 {
             grid-row: 5/6;
+
             .envio {
                 text-transform: capitalize;
                 color: $blanco;
@@ -92,6 +95,7 @@
 
         .caja4 {
             grid-row: 6/7;
+
             .envio {
                 text-transform: capitalize;
                 color: $blanco;
