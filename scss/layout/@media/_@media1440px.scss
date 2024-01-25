@@ -22,7 +22,9 @@
     .main-index {
         grid-template-rows: repeat(12, 73px);
         width: 1440px;
-
+        h1{
+            display: none;
+        }
         .logo {
             width: 250px;
             height: 200px;
